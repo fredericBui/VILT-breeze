@@ -8,13 +8,13 @@ composer create-project laravel/laravel example-app
 
 ## 2 - Configure database :
 
-Change informations in .env
-DB_PORT=3308
-DB_DATABASE=laravel2
-DB_USERNAME=root
-DB_PASSWORD=
+Change informations in .env<br/>
+DB_PORT=3306<br/>
+DB_DATABASE=laravel<br/>
+DB_USERNAME=root<br/>
+DB_PASSWORD=<br/>
 
-Puis réaliser la migration en BDD :
+Puis réaliser la migration en BDD :<br/>
 php artisan migrate
 
 ## 3 - Install Laravel Breeze
